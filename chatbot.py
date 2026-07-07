@@ -19,7 +19,17 @@ def age_guessing():
 
     print(f"Your age is {your_age}; that's a good time to start programming!")
 
+def old_enough_to_count():
+    print('Now I will prove to you that I can count to any number you want.')
+
+    any_number = int(input())
+    for i in range(any_number + 1):
+        print(f"{i} !")
+
+    print('Completed, have a nice day!')
+
 # Now we can use these functions
 greet("Aid", 2026)
 remind_name()
 age_guessing()
+old_enough_to_count()
