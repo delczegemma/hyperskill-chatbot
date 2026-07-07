@@ -28,8 +28,27 @@ def old_enough_to_count():
 
     print('Completed, have a nice day!')
 
+def test():
+    print("Let's test your programming knowledge.")
+    print("""Why do we use methods?
+    1.To repeat a statement multiple times.
+    2. To decompose a program into several small subroutines.
+    3. To determine the execution time of a program.
+    4. To interrupt the execution of a program.""")
+    guess = int(input())
+    while guess != 4:
+        print("Please, try again.")
+        guess = int(input())
+    print('Correct! That was the right solution.')
+
+
+def end():
+    print('Congratulations, have a nice day!')
+
 # Now we can use these functions
 greet("Aid", 2026)
 remind_name()
 age_guessing()
 old_enough_to_count()
+test()
+end()
